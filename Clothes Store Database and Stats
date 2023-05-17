@@ -1,0 +1,25 @@
+Create a Clothes Store Database
+
+
+Create table clothes (id integer primary key, name text, price INTEGER, aisle INTEGER, color TEXT);
+
+INSERT INTO clothes VALUES (1, "red hoodie", 30, 2, "red");
+INSERT INTO clothes VALUES (2, "blue hoodie", 30, 3, "blue");
+INSERT INTO clothes VALUES (3, "pink hoodie", 40, 2, "pink");
+INSERT INTO clothes VALUES (4, "yellow hoodie", 20, 1, "yellow");
+INSERT INTO clothes VALUES (5, "red shirt", 10, 2, "red");
+INSERT INTO clothes VALUES (6, "blue shirt", 10, 5, "blue");
+INSERT INTO clothes VALUES (7, "pink shirt", 15, 1, "pink");
+INSERT INTO clothes VALUES (8, "yellow shirt", 10, 2, "yellow");
+INSERT INTO clothes VALUES (9, "green hoodie", 30, 3, "green");
+INSERT INTO clothes VALUES (10, "green shirt", 8, 4, "green");
+INSERT INTO clothes VALUES (11, "black hoodie", 30, 2, "black");
+INSERT INTO clothes VALUES (12, "black shirt", 12, 6, "black");
+INSERT INTO clothes VALUES (13, "white hoodie", 30, 4, "white");
+INSERT INTO clothes VALUES (14, "white shirt", 5, 9, "white");
+INSERT INTO clothes VALUES (15, "orange hoodie", 30, 2, "orange");
+
+What aisle and price are certain clothes on?
+SELECT name, price, aisle From clothes ORDER BY price desc
+
+
